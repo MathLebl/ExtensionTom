@@ -1,0 +1,40 @@
+{
+  "name": "Extension de Thomas",
+  "version": "1.0",
+  "description": "L'extension officielle de Thomas",
+  "manifest_version": 2,
+  "permissions": [
+    "activeTab"
+  ],
+  "browser_action": {
+    "default_icon": "icons/favicon-96.ico",
+    "default_title": "ExdeTo"
+  },
+  "background": {
+    "scripts": ["execute.js"],
+    "persistent": false
+  },
+  "icons": {
+    "16": "icons/favicon-96.ico",
+    "32": "icons/favicon-96.ico",
+    "48": "icons/favicon-96.ico",
+    "128": "icons/favicon-96.ico"
+  }
+  // "content_scripts": [
+  //   {
+  //     "matches": [
+  //       // "http://*/*",
+  //       // "https://*/*"
+  //     ],
+  //     "exclude_matches": [
+  //       // "http://www.polipedia.fr/*",
+  //       // "https://www.polipedia.fr/*",
+  //       // "http://localhost:3000/*",
+  //       // "https://www.google.com/*",
+  //       // "https://www.nosdeputes.fr/*"
+  //     ]
+  //     // "js": ["scripts/analyzeText-appendTags.js"],
+  //     // "run_at": "document_end"
+  //   }
+  // ]
+}
